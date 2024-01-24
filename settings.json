@@ -25,8 +25,20 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "tabnine.experimentalAutoImports": true,
   "editor.fontFamily": "Fira Code",
-  "workbench.colorTheme": "Dracula",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.sortImports": true
+  },
+  "[css]": {
+    "editor.suggest.insertMode": "replace"
+  },
   "[cpp]": {
     "editor.defaultFormatter": "ms-vscode.cpptools"
-  }
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "workbench.colorTheme": "Andromeda Colorizer",
+  "liveServer.settings.donotVerifyTags": true,
+  "git.openRepositoryInParentFolders": "never"
 }
